@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript </title>
+    <script type="text/javascript" src="../scripts/javascript2.js"></script>
+  </head>
+  <body>
+    <p id="prueba">PRUEBA</p>
+    <p id="especial">PArraf</p>
+    <p>HOLAAA</p>
+  <button type="button" onclick='cambiarParrafos()'>Parrafo</button>
+
+
+<p id="pPersona"></p>
+
+<p>Las variables se pueden vaciar si establece el valor en INDEFINIDO</p>
+<p id="pIndefinido"></p>
+<p id="pNULLO"></p>
+<p id="pSUMA"></p>
+
+<button type="button" onclick='fechas()'>Fechas</button>
+<script>
+var persona = {
+  nombre : "Jose",
+  apellido  : "Ramirez",
+  edad       : 50,
+  colorPreferido  : "azul"
+};
+
+document.getElementById("pPersona").innerHTML = persona.nombre + " tiene " + persona.edad + " años.";
+persona =  undefined;
+document.getElementById("pIndefinido").innerHTML = persona + "<br>" + typeof persona;
+persona = null;
+document.getElementById("pNULLO").innerHTML = persona + "<br>" + typeof persona;
+var numero1 = 3;
+var numero2 = 5;
+ suma(numero1,numero2, "pSUMA");
+
+ //Ejercicio 4
+ var mensaje = "gana la de fuera";
+ var d = new Date();
+alert(d.getFullYear());
+function muestraMensaje() {
+   mensaje = "gana la de dentro";
+return mensaje;
+}
+alert(mensaje);
+alert(muestraMensaje());
+cadena();
+</script>
+
+  </body>
+</html>

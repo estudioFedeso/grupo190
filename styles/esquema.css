@@ -1,0 +1,95 @@
+/* agregamos margenes al body */
+body{
+  padding-top: 10px;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+/* Cabecera */
+header{
+  background-color: blue;
+  height: 10%;
+}
+/* nav*/
+nav{
+  padding-left: 5px;
+}
+/*Desplazar lista horizontal*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+}
+
+li {
+    float: left;
+    padding: 1px;
+}
+/*Cambiar cuando apse el mouse*/
+li a:hover {
+    background-color: red;
+}
+/*Contenedor*/
+#divContenido{
+  margin-top: 5px;
+  width: 100%;
+
+}
+/*estilos articulo*/
+.izquierdo{
+  float: left;
+}
+.derecho{
+  float: right;
+}
+article{
+  width: 30%;
+  height: 400px;
+  margin: 15px;
+}
+#Contenido{
+  display: flex;
+  width: 100%;
+
+}
+.artUno{
+    background-color: #99A3A4;
+}
+.artDos{
+    background-color: #CACFD2;
+}
+.artTres{
+  background-color: #808B96;
+}
+.limpiarFlotante{
+  clear: both;
+}
+/*Footer*/
+footer{
+  background-color: #CACFD2;
+  height: 10%;
+  text-align: center;
+  margin-top:10px;
+}
+/*Elementos cabecera*/
+#divImageP{
+  padding: 10px;
+}
+#divRedes{
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-image: url('../images/redes.png');
+  width: 32px;
+  height: 32px;
+}
+#divTitulo{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  width: 40%;
+}

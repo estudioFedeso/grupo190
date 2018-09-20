@@ -1,0 +1,20 @@
+/* Este es un
+   comentario CSS de varias
+   lineas */
+   @import 'estilosAdicionales.css';
+   /* Selectores Genericos */
+@import 'externa.css';
+h1 {
+  color: blue;
+  background-color: yellow;
+
+  text-align: center;
+}
+
+p {
+  color: red;
+}
+
+p, li {
+  text-decoration: underline;
+}

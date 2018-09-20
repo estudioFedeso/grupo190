@@ -1,0 +1,60 @@
+
+/* Selectores SIMPLES */
+/* Todos los elementos p son rojos */
+p {
+  color: red;
+}
+
+/* Todos los elementos div son azules */
+div {
+  color: blue;
+}
+
+/* Selectores Clases */
+/* El elemento con la clase "first" está en negrita*/
+.first {
+  font-weight: bold;
+}
+/* Todos los elementos con la clase "done" están tachados*/
+.done {
+  text-decoration: line-through;
+}
+
+/* Selectores Clases */
+/* El elemento con la clase "first" está en negrita
+.first {
+  font-weight: bold;
+}
+/* Todos los elementos con la clase "done" están tachados
+.done {
+  text-decoration: line-through;
+}*/
+/* Selectores ID */
+#polite {
+  font-family: cursive;
+}
+
+#rude {
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+
+
+
+/*Selector Combinado*/
+ section p {
+  color: blue;
+}
+
+section > p {
+  background-color: yellow;
+}
+
+h2 + p {
+  text-transform: uppercase;
+}
+
+h2 ~ p {
+  border: 1px dashed black;
+}

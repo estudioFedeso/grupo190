@@ -1,0 +1,122 @@
+/*Selectores de presencia y valor*/
+/* todos los elementos con  "data-vegetable"
+su texto es verde */
+[data-vegetable] {
+  color: green;
+}
+
+/*todos los elementos con "data-vegetable"
+  y un valor exacto a  "liquid" tendran un fondo dorado */
+[data-vegetable="liquid"] {
+  background-color: goldenrod;
+}
+
+/* todos los elementos con "data-vegetable",
+   contengan el valor "spicy", sin importar otros,
+   tendra el  color rojo  */
+[data-vegetable~="spicy"] {
+  color: red;
+}
+
+/*Selectores de presencia y valor 2*/
+/* Classic usage for language selection */
+[lang|=fr] {
+  font-weight: bold;
+}
+
+/* All elements with the attribute "data-quantity", for which
+   the value starts with "optional" */
+[data-quantity^="optional"] {
+  opacity: 0.5;
+}
+
+/* All elements with the attribute "data-quantity", for which
+   the value ends with "kg" */
+[data-quantity$="kg"] {
+  font-weight: bold;
+}
+
+/* All elements with the attribute "data-vegetable" containing
+   the value "not spicy" are turned back to green */
+[data-vegetable*="not spicy"] {
+  color: green;
+}
+
+
+
+/*Pseudo-clases*/
+
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+/* color cuando se ha visitado los links */
+a:visited {
+  color: blue;
+}
+
+/* Cuando se pasa el mouse o cuando esta activo */
+a:hover,
+a:active,
+a:focus {
+  color: darkred;
+  text-decoration: none;
+}
+
+
+/*Pseudo-elementos*/
+
+/* Todos los elementos del archivo "href", con el valor que comience
+   con "http", se agregará una flecha después de su
+   contenido (para indicar que es un enlace externo) */
+[href^=http]::after {
+  content: '⤴';
+}
+
+/* VALORES Y UNIDADES EN CSS*/
+p {
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: cyan;
+}
+
+p:nth-child(1) {
+  width: 150px;
+  font-size: 18px;
+}
+
+p:nth-child(2) {
+  width: 250px;
+  font-size: 24px;
+}
+
+p:nth-child(3) {
+  width: 350px;
+  font-size: 30px;
+}
+
+/*Altura de línea*/
+article {
+  line-height: 1.5;
+  border: 1px solid blue;
+}
+/*Ejercicio Porcentajes
+div {
+  margin: 10px;
+  font-size: 200%;
+  color: white;
+  height: 150px;
+  border: 2px solid black;
+}
+
+div:nth-child(1) {
+  background-color: red;
+  width: 650px;
+}
+
+div:nth-child(2) {
+  background-color: blue;
+  width: 75%;
+}*/

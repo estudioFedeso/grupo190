@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  background-color: yellow;
+
+  text-align: center;
+}
+
+p {
+  color: red;
+}
+p, li {
+  text-decoration: underline;
+}
+#pirmerLI{
+  color: red;
+}
+.textoAzul{
+  color:green;
+
+}
+.tam27{
+  font-size: 27px;
+}

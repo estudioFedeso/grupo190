@@ -1,0 +1,13 @@
+[06/05/2018 19:26.13.720] WudfCoInstaller: ReadWdfSection: Checking WdfSection [Basic_Install.Wdf]
+
+[06/05/2018 19:26.13.793] WudfCoInstaller: UMDF Service WpdFs is already installed - removing existing settings in preparation for setting new ones.
+
+[06/05/2018 19:26.13.835] WudfCoInstaller: Configuring UMDF Service WpdFs.
+
+[06/05/2018 19:26.13.885] WudfCoInstaller: ImpersonationLevel set to 2
+
+[06/05/2018 19:26.13.926] WudfCoInstaller: Final status: error(0) La operación se completó correctamente.
+
+
+[06/05/2018 19:26.14.799] WudfCoInstaller: Created marker file C:\WINDOWS\system32\drivers\Msft_User_WpdFs_01_11_00.Wdf.
+

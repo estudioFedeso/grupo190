@@ -1,0 +1,40 @@
+/*@import 'estilosAdicionales.css';
+@font-face {
+  font-family: <un-nombre-de-fuente-remota>;
+  src: <origen> [,<origen>]*;
+  [font-weight: <peso>];
+  [font-style: <estilo>];
+}
+
+
+●	El contenido de la regla-@ @media se aplicará solo si el dispositivo que ejecuta el navegador cumple la condición.
+@media only screen and (max-width: 5000px) and (min-width: 621px) {
+@media  (min-width: 1000000px) {
+  p {
+      text-align: center;
+      }
+}
+●	El contenido de la regla-@ @supports se aplicará solo si el navegador soporta la característica mencionada.
+@supports not (text-align-last:justify){
+p {
+    text-align: center;
+    }
+}
+●	El contenido de la regla-@ @document se aplicará solo si la página actual cumple ciertas condiciones.
+
+
+*/
+
+@font-face {
+      font-family: "Bitstream Vera Serif Bold";
+      src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+    }
+
+
+
+    p{
+    border: 2px solid #3e9efe;
+    padding: 10px;
+    background-color:#80bfff;
+     font-size: 24px;
+    }

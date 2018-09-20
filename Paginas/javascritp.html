@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript </title>
+  <script type="text/javascript">
+  function cambiarTexto(){
+    document.getElementById('pMensaje').innerHTML = 'Mi primer JavaScript, masdans ojala pueden';
+  }
+
+  </script>
+<script type="text/javascript" src="../scripts/javascript.js"></script>
+  </head>
+  <body>
+  <!-- Ejercicio 1  -->
+  <p id="pMensaje">Holaaaaaaaaaaaaa asasssssssss</p>
+  <div class="">
+    <button type="button" onclick='document.getElementById("pMensaje").innerHTML = "Hola JavaScript!"'>Cambiame!</button>
+    <button type="button" onclick='cambiarTexto()'>Cambiame 2!</button>
+    <button type="button" onclick='cambiarStyle()'>Cambiame 3!</button>
+
+  </div>
+  <div class="">
+    <button type="button" onclick='sumarRestar(false)'>Suma</button>
+    <button type="button" onclick='operadorNegacion()'>operador Negacion</button>
+    <button type="button" onclick='operadorAND()'>Operador AND</button>
+    <button type="button" onclick='operadorOR()'>Operador OR</button>
+    <button type="button" onclick='operadoresMatematicos(27,28,18,10,5)'> Operadores Matematicos</button>
+    <button type="button" onclick='relacionales(27,28)'>  Relacionales</button>
+  </div>
+  <div>
+    <h1>Digite su EDAD</h1>
+    <input type="text" name="idTexto" id="txtTexto" value="">
+    <button type="button" onclick='mayorEdad()'>  IFCondicion</button>
+    <button type="button" onclick='clasificarEDAD()'>  Mensaje especifico</button>
+  </div>
+  <div>
+    <h3>Digite numero y la potencia que lo deseas elevar</h3>
+    <input type="text" name="idTexto" id="txtBase" value="">
+    <input type="text" name="idTexto" id="txtExponente" value="">
+    <button type="button" onclick='potenciacion()'> Potenciacion</button>
+    <input type="text" name="idTexto" id="txtResultado" value="">
+  </div>
+  <div>
+    <h3>Dias de la semana</h3>
+  <button type="button" onclick='obtenerDias()'> Dias del año</button>
+  </div>
+  </body>
+</html>
